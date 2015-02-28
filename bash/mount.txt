@@ -1,0 +1,1 @@
+diskutil mount `diskutil list | grep "name_of_drive" | sed -n -e 's/^.* //p'`
